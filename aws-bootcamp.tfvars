@@ -1,8 +1,10 @@
 ## CONFIG VARIABLES
 ami = ""
-instance_type = ""
+instance_type = "t2.micro"
 tags = {
-
+    project = "aws-bootcamp"
+    purpose = "aws-bootcamp"
+    created_by = "tibs"
 }
 
 ## SECURITY VARIABLES
@@ -15,4 +17,6 @@ subnet_id = ""
 
 ## STORAGE VARIABLES
 root_block_device = {}
-volume_tags = {}
+volume_tags = {
+    
+}

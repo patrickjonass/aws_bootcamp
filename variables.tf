@@ -1,3 +1,9 @@
+variable "count" {
+    description = ""
+    type = list(string)
+    default = []
+}
+
 variable "ami" {
     description = ""
     default = []

@@ -1,5 +1,9 @@
 
+data "aws_caller_identity" "current" {}
 
+provider "aws" {
+  region  = var.region
+}
 
 module "instance_a" {
     source = "git@github.com:patrickjonass/tf_modules.git//ec2?ref=main"

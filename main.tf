@@ -15,7 +15,7 @@ module "instance_a" {
 
     ## SECURITY
     key_name = var.key_name
-    vpc_security_group_ids
+    vpc_security_group_ids = var.vpc_security_group_ids
 
     ## NETWORKING
     availability_zone = var.availability_zone

@@ -1,4 +1,4 @@
-variable "count" {
+variable "instance_count" {
     description = ""
     type = list(string)
     default = []
@@ -15,56 +15,56 @@ variable "associate_public_ip_address" {
 }
 
 variable "availability_zone" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "ebs_block_device" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "iam_instance_profile" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "instance_type" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "key_name" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "root_block_device" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "subnet_id" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "tags" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "user_data" {
-    description = {}
+    description = ""
     default = []
 }
 
 variable "vpc_security_group_ids" {
-    description = {}
+    description = ""
     default = []
 } 
 
 variable "volume_tags" {
-    description = {}
+    description = ""
     default = []
 }

@@ -46,7 +46,8 @@ variable "root_block_device" {
 
 variable "subnet_id" {
     description = ""
-    default = []
+    type=map(string)
+    default = {}
 }
 
 variable "tags" {

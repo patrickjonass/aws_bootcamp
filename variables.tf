@@ -4,6 +4,11 @@ variable "instance_count" {
     default = []
 }
 
+variable "region" {
+    description=""
+    default=""
+}
+
 variable "ami" {
     description = ""
     default = []

@@ -11,7 +11,7 @@ variable "region" {
 
 variable "ami" {
     description = ""
-    default = []
+    default = "ami-05d1dd0175a5c3b99"
 }
 
 variable "associate_public_ip_address" {

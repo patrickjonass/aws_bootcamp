@@ -9,7 +9,7 @@ module "instance_a" {
     source = "git@github.com:patrickjonass/tf_modules.git//ec2?ref=main"
 
     ## CONFIG
-    #ami = var.ami
+    ami = var.ami
     instance_type = var.instance_type
     tags = var.tags
 
@@ -30,7 +30,7 @@ module "instance_b" {
     source = "git@github.com:patrickjonass/tf_modules.git//ec2?ref=main"
 
     ## CONFIG
-    #ami = var.ami
+    ami = var.ami
     instance_type = var.instance_type
     tags = var.tags
 
